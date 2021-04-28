@@ -1,0 +1,56 @@
+{
+	"name":"Registration",
+	"type":"page",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"registration"
+		},
+		{
+			"name":"class",
+			"value":["page-registration","col","col-1"]
+		},
+		{
+			"name":"data-layout",
+			"value":"standard"
+		}
+	],
+	"meta":[
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"description"
+				},
+				{
+					"name":"content",
+					"value":"ATP-Bio ERC participant registration point."
+				}
+			]
+		},
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"keywords"
+				},
+				{
+					"name":"content",
+					"value":"registration, first, middle, last, name, initial, email, phone, erc role"
+				}
+			]
+		}
+	],
+	"styles":false,
+	"scripts":false,
+	"title":[
+		{
+			"element":"h1",
+			"text":"ATP-Bio ERC Participant Registration"
+		}
+	],
+	"content":[
+		{"component":"cmp_form_register"}
+	]
+	
+}

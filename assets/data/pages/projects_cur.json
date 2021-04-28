@@ -1,0 +1,57 @@
+{
+	"ref":"16010705_161815100503020_20200202",
+	"name":"Projects",
+	"type":"page",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"projects"
+		},
+		{
+			"name":"class",
+			"value":["page-projects","col","col-1"]
+		},
+		{
+			"name":"data-layout",
+			"value":"standard"
+		}
+	],
+	"meta":[
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"description"
+				},
+				{
+					"name":"content",
+					"value":"thrusts, research, numbers, and project information related to a ATP-Bio research and participants."
+				}
+			]
+		},
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"keywords"
+				},
+				{
+					"name":"content",
+					"value":"atp-bio, registor, projects, research, thrust, themes, inventions, exchanges, involvement"
+				}
+			]
+		}
+	],
+	"styles":false,
+	"scripts":false,
+	"title":[
+		{
+			"element":"h1",
+			"text":"ATP-Bio Projects"
+		}
+	],
+	"content":[
+		{"component":"cmp_form_projects"}
+	]
+	
+}

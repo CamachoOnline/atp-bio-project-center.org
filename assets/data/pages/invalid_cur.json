@@ -1,0 +1,58 @@
+{
+	"name":"Invalid",
+	"type":"page",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"activated"
+		},
+		{
+			"name":"class",
+			"value":["page-activated","col","col-2"]
+		},
+		{
+			"name":"data-layout",
+			"value":"standard"
+		}
+	],
+	"meta":[
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"description"
+				},
+				{
+					"name":"content",
+					"value":"The url is either invalid or you already have activated your account."
+				}
+			]
+		},
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"keywords"
+				},
+				{
+					"name":"content",
+					"value":"invalid, account, activated"
+				}
+			]
+		}
+	],
+	"styles":false,
+	"scripts":false,
+	"title":[
+		{
+			"element":"h1",
+			"text":"Invalid Url"
+		},
+		{
+			"element":"p",
+			"text":"The url is either invalid or you already have activated your account."
+		}
+	],
+	"content":false
+	
+}

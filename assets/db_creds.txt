@@ -1,0 +1,24 @@
+// GODADDY
+Customer: # 291842286
+Pin: 4991
+
+// HOSTING CPANEL LOGIN
+username: trzu4ephd3ls
+password: 111nsfERC2021!
+url: https://atp-bio-reporting-center.org:2083/logout/?locale=en
+
+// DB SUPER-USER CREDENTIALS
+// This is the database user with ALL rights and used in db_config_cur.php
+username: QWx5c3NhQW5uQnVyZ2Vy
+password: TW9tbXlMb3Zlc0pheWNlIQ==
+url: https://atp-bio-reporting-center.org:2083/cpsess2358074618/3rdparty/phpMyAdmin/index.php
+local: http://localhost/phpmyadmin
+
+// GODADDY(support) Reference
+04/05/2021 - #80352130
+
+// LOCALHOST Creds
+Username: DavidCamacho
+Password: UCLi8PBtnVnTydip
+
+// SQUARSPACE

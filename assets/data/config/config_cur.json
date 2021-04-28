@@ -1,0 +1,155 @@
+{
+	"code": false,
+	"track": false,
+	"meta": [{
+			"attributes": [{
+				"name": "charset",
+				"value": "utf-8"
+			}]
+		},
+		{
+			"attributes": [{
+				"name": "Author",
+				"value": "CamachoOnline LLC"
+			}]
+		},
+		{
+			"attributes": [{
+					"name": "http-equiv",
+					"value": "X-UA-Compatible"
+				},
+				{
+					"name": "content",
+					"value": "IE=EDGE"
+				}
+			]
+		},
+		{
+			"attributes": [{
+					"name": "name",
+					"value": "viewport"
+				},
+				{
+					"name": "content",
+					"value": "width=device-width initial-scale=1.0"
+				}
+			]
+		},
+		{
+			"attributes": [{
+					"name": "name",
+					"value": "format-detection"
+				},
+				{
+					"name": "content",
+					"value": "telephone=no"
+				}
+			]
+		},
+		{
+			"attributes": [{
+					"name": "name",
+					"value": "application-name"
+				},
+				{
+					"name": "content",
+					"value": "ATP-Bio Registor"
+				}
+			]
+		}
+	],
+	"styles": [{
+			"attributes": [{
+					"name": "id",
+					"value": "googlefonts-pre"
+				},
+				{
+					"name": "href",
+					"value": "https://fonts.gstatic.com"
+				},
+				{
+					"name": "rel",
+					"value": "preconnect"
+				}
+
+			]
+		},
+		{
+			"attributes": [{
+					"name": "id",
+					"value": "googlefonts"
+				},
+				{
+					"name": "href",
+					"value": "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto+Condensed:ital@0;1&display=swap"
+				},
+				{
+					"name": "rel",
+					"value": "stylesheet"
+				}
+
+			]
+		},
+		{
+			"attributes": [{
+					"name": "id",
+					"value": "googlematerials"
+				},
+				{
+					"name": "href",
+					"value": "https://fonts.googleapis.com/icon?family=Material+Icons"
+				},
+				{
+					"name": "rel",
+					"value": "stylesheet"
+				}
+
+			]
+		},
+		{
+			"attributes": [{
+					"name": "id",
+					"value": "app_style"
+				},
+				{
+					"name": "href",
+					"value": "css/core_cur.css"
+				},
+				{
+					"name": "rel",
+					"value": "stylesheet"
+				},
+				{
+					"name": "media",
+					"value": "screen, projection"
+				}
+			]
+		}
+	],
+	"scripts": [{
+			"attributes": [{
+					"name": "id",
+					"value": "jquery"
+				},
+				{
+					"name": "src",
+					"value": "js/jquery_cur.js"
+				}
+			]
+		},
+		{
+			"attributes": [{
+					"name": "id",
+					"value": "app_script"
+				},
+				{
+					"name": "src",
+					"value": "js/core_cur.js"
+				}
+			]
+		}
+	],
+	"admin": false,
+	"header": false,
+	"footer": false
+}

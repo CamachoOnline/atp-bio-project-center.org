@@ -1,0 +1,28 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_wsw"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+		{
+			"element":"h3",
+			"text":"EDUCATION AND OUTREACH"
+		},
+		{
+			"element":"p",
+			"text":"ATP-Bio sponsored educational and outreach events for K12, Community College, and Undergraduate Students"
+		}
+	],
+	"content":[
+		
+		
+	]
+}

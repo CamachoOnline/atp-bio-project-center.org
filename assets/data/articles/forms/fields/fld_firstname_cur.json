@@ -1,0 +1,35 @@
+{
+	"element":"input",
+	"attributes":[
+		{
+			"name":"type",
+			"value":"text"
+		},
+		{
+			"name":"id",
+			"value":"first_name"
+		},
+		{
+			"name":"class",
+			"value":[]
+		},
+		{
+			"name":"name",
+			"value":"per_ftn"
+		},
+		{
+			"name":"min",
+			"value":"2"
+		},
+		{
+			"name":"max",
+			"value":"50"
+		},
+		{
+			"name":"required"
+		}
+	],
+	"label":"First Name",
+	"example":false,
+	"tooltip":false
+}

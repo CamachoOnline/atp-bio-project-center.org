@@ -1,0 +1,24 @@
+.atp--txt-fieldset > .atp--profile-project:last-child{
+	margin:0;
+}
+.atp--profile-project{
+	padding:$base-padding;
+	position:$base-position;
+	border-width:$base-border-width;
+	border-style:$base-border-type;
+	border-color:$base-border-color;
+}
+.atp--profile-project > .atp--content{
+	position:$base-position;
+}
+.atp--profile-project > .atp--content > .atp--controls{
+	position:absolute;
+	top:$base-padding;
+	right:$base-padding;
+}
+.atp--profile-project > .atp--content > .atp--controls > .atp--content{
+	position:relative;
+}
+.atp--profile-project > .atp--content > .atp--controlsf > .atp--content > .atp--item{
+	display:inline;
+}

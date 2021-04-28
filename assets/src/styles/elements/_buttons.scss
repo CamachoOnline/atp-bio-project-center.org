@@ -1,0 +1,40 @@
+.atp--button {
+    text-transform: $base-button-case;
+    font-weight: $base-button-weight;
+	background-color:$base-button-bgcolor;
+	color:$base-button-color;
+	border:0;
+	cursor:pointer;
+	
+}
+.atp--button:disabled{
+	opacity: 50;
+	cursor:default;
+}
+
+@media screen and (min-width: 1px){
+
+	.atp--button {
+		padding: $base-padding*2 $base-padding*5 $base-padding*1.8;
+
+	}
+
+}
+
+@media screen and (min-width: 768px){
+
+
+
+}
+
+@media screen and (min-width: 960px){
+
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+
+
+}

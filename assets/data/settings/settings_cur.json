@@ -1,0 +1,783 @@
+{
+	"application":{
+		"name":{
+			"short":"PC",
+			"long":"Project Center"
+		},
+		"protocal":"",
+		"domain":"atp-bio-project-center.org",
+		"spinner":"",
+		"site":"Project Center",
+		"title":"Project Center",
+		"version":"1.0",
+		"author":{
+			"name":"CamachoOnline LLC.",
+			"contact":{
+				"address":"6730 Perry Ave. N",
+				"city":"Brooklyn Center",
+				"state":"MN",
+				"zip":"55429",
+				"phone":"763-222-4636",
+				"mobile":"763-222-4636",
+				"fax":false
+			}
+		},
+		"owner":{
+			"name":"CamachoOnline LLC.",
+			"contact":{
+				"address":"6730 Perry Ave. N",
+				"city":"Brooklyn Center",
+				"state":"MN",
+				"zip":"55429",
+				"phone":"763-222-4636",
+				"mobile":"763-222-4636",
+				"fax":false
+			}
+		},
+		"license":"6d2LBbJtsrUmai4P0HDO7++m6GCTIHcfWSHj8c8h+ek=",
+		"classpre":"atp--",
+		"jspre":"js--",
+		"data":{
+			"directory":"assets/data",
+			"version":"_cur",
+			"extension":".json",
+			"errors":"/settings/errors_cur.json"
+		},
+		"image":{
+			"directory":"images",
+			"spinner":{
+				"url":"/spinner/loader_333333.gif",
+				"alt":"loading"
+			}
+		},
+		"language":"enus",
+		"direction":"ltr",
+		"country":"United States",
+		"security":{
+			"pepper":"relsAaAunBsygrn",
+			"key":"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+			"pwdlng":16,
+			"siph":"AES-128-CTR",
+			"ivct":"1234567891011121",
+			"enky":"atpbioorg"
+			
+		},
+		"forms":{
+			"registration":{
+				"action":"api_register_cur.php",
+				"method":"POST",
+				"indicator":"processing"
+			},
+			"signin":{
+				"action":"api_signin_cur.php",
+				"method":"POST",
+				"indicator":"verifying"
+			}
+		},
+		"db":{
+			"tables":{
+				"users":"usr_tbl",
+				"institutions":"int_tbl",
+				"organizations":"org_tbl",
+				"projects":"pro_tbl"
+			},
+			"session":{
+				"redirects":{
+					"loggedin":{
+						"url":"profile.php"
+					}
+				}
+			},
+			"fields":{},
+			"forms":{
+				"signin":["usr_psn","usr_psw"],
+				"register":["usr_psn","usr_psw","usr_fnm","usr_mdl","usr_lnm","usr_eml","usr_phn","usr_typ"]
+			},
+			"access":{
+				"elements":["input","select","textarea"],
+				"types":["text","checkbox","radio","date","password"]
+			}
+			
+		},
+		"flags":{
+			"html":["a","abbr","acronym","address","applet","area","article","aside","b","base","basefont","bdi","bdo","bgsound","big","blink","blockquote","body","br","button","canvas","caption","center","cite","col","colgroup","content","data","datalist","dd","decorator","del","details","dfn","dir","div","dl","dt","element","em","embed","fieldset","figcaption","figure","font","footer","form","frame","frameset","h1","h2","h3","h4","h5","h6","head","header","hgroup","hr","html","i","iframe","img","input","ins","isindex","kbd","keygen","label","legend","li","link","listing","main","map","mark","marquee","menu","menuitem","meta","meter","nav","nobr","noframes","noscript","object","ol","optgroup","option","output","p","param","plaintext","pre","progress","q","rp","rt","ruby","s","samp","script","section","select","shadow","small","source","spacer","span","strike","strong","style","sub","summary","sup","table","tbody","td","template","textarea","tfoot","th","thead","time","title","tr","track","tt","u","ul","var","video","wbr","xmp"]
+
+		},
+		"fill":{
+			"empty":{
+				"attributes":[
+					{
+						"name":"id",
+						"value":""
+					},
+					{
+						"name":"class",
+						"value":[]
+					}
+				]
+			},
+			"element":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":[]
+					}
+				]
+			},
+			"item":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":["item","field"]
+					}
+				]
+			},
+			"tooltip":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":["tooltip","closed"]
+					}
+				]
+			},
+			"icon":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":["icon","material-icons"]
+					}
+				]
+			},
+			"example":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":["example"]
+					}
+				]
+			},
+			"message":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":["message"]
+					}
+				]
+			},
+			"required":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":["txt","txt-1","txt-required"]
+					}
+				]
+			},
+			"wrapper":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":["wrapper"]
+					}
+				]
+			},
+			"text":{
+				"attributes":[
+					{
+						"name":"class",
+						"value":["txt","txt-1"]
+					}
+				]
+			}
+		},
+		"void":{
+			"types":["element","attributes","content"],
+			"attributes":["required","disabled","multiple","selected"],
+			"classes":["material-icons","closed","open","hidden"]
+		},
+		"text":{
+			"select":{
+				"base":"Select a",
+				"alt":"Please make a selection"
+			}
+		},
+		"regex":{
+			"url_prm":"L1s/Jl0rKFtePSZdKyk9KFteJl0qKS9naQ==",
+			"usr_eml":"L15bYS16QS1aMC05LiEjJCUmJyorLz0/Xl9ge3x9fi1dK0BbYS16QS1aMC05LV0rKD86XC5bYS16QS1aMC05LV0rKSokLw==",
+			"usr_phn":"L15cKD8oWzAtOV17M30pXCk/Wy0uIF0/KFswLTldezN9KVstLiBdPyhbMC05XXs0fSkkLw=="
+		},
+		"classids":{
+			"form":"js--form",
+			"field":"js--field",
+			"label":"js--label",
+			"message":"js--message",
+			"example":"js--example",
+			"tooltip":"js--tooltip",
+			"button":"js--button",
+			"input":"js--input",
+			"component":"js--component"
+		},
+		"session":{
+			"redirects":{
+				"loggedin":"profile.php"
+			}
+		}
+	},
+	"organization":{
+		"name":{
+			"short":"ATP-Bio",
+			"long":"Advanced Technology for the Preservation of Biological Systems"
+		},
+		"logo":{
+			"file":"images/logo/email/atpbio_full_clr.png",
+			"alt":"atp-bio full color logo"
+		},
+		"type":{
+			"code":"NSF-ERC",
+			"description":"National Science Foundation Engineering Research Center"
+		},
+		"address":{
+			"attn":"University of Minnesota",
+			"street1":"420 Delaware Street Southeast",
+			"street2":"Mayo Memorial Building, Room 748",
+			"city":"Minneapolis", 
+			"state":"MN",
+			"zip":"55455"
+		},
+		"contact":{
+			"phone":{
+				"office":"",
+				"fax":""
+			},
+			"email":{
+				"general":"atp-bio@umn.edu"
+			}
+		}
+	},
+	"administrator":{
+		"name":{
+			"first":"Alyssa",
+			"middle":"A",
+			"last":"Burger"
+		},
+		"title":"Administrative Director",
+		"contact":{
+			"phone":{
+				"office":"",
+				"mobile":"612-964-3996",
+				"fax":""
+			},
+			"email":"atp-bio-ad@umn.edu"
+		}
+	},
+	"institutions":[
+		{
+			"name":"University of Minnesota",
+			"img":{
+				"file":"",
+				"alt":""
+			},
+			"personnel":{
+				"senior":[
+					{
+						"name":"John Bischof",
+						"title":"Director",
+						"alt":"Thrust Area 3 Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Erik Finger",
+						"title":"",
+						"alt":"Organ Testbed Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Rhonda Franklin",
+						"title":"",
+						"alt":"Integration Director",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Michael Garwood",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Chris Hogan",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Allison Hubel",
+						"title":"",
+						"alt":"Cell Testbed Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Paul Iaizzo",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Michael McAlpine",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Carla Pavone",
+						"title":"",
+						"alt":"Innovation Ecosystem Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Timothy Pruett",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Gillian Roehrig",
+						"title":"",
+						"alt":"Engineering Workforce Development Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Bethanie Stadler",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Keisha Varma",
+						"title":"",
+						"alt":"Diversity and Culture of Inclusion Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Susan Wolf",
+						"title":"",
+						"alt":"Ethics and Public Policy Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					}
+				]
+			}
+		},
+		{
+			"name":"Massachusetts General Hospital",
+			"img":{
+				"file":"",
+				"alt":""
+			},
+			"personnel":{
+				"senior":[
+					{
+						"name":"Daniel Irimia",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Rebecca Sandlin",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Shannon Stott",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Shannon Tessier",
+						"title":"",
+						"alt":"Organisms Testbed Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Mehmet Toner",
+						"title":"Deputy Director",
+						"alt":"Innovation Ecosystem Co-Lead Thrust Area 2 Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"O. Berk Usta",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Basak Uygun",
+						"title":"",
+						"alt":"Organ Testbed Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Korkut Uygun",
+						"title":"",
+						"alt":"Thrust Area 1 Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Martin Yarmush",
+						"title":"",
+						"alt":"Thrust Area 1 Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					}
+				]
+			}
+		},
+		{
+			"name":"University of California Riverside",
+			"img":{
+				"file":"",
+				"alt":""
+			},
+			"personnel":{
+				"senior":[
+					{
+						"name":"Guillermo Aguilar",
+						"title":"",
+						"alt":"Thrust Area 3 Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Lorenzo Mangolini",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Yadong Yin",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					}
+				]
+			}
+		},
+		{
+			"name":"University of California Berkeley",
+			"img":{
+				"file":"",
+				"alt":""
+			},
+			"personnel":{
+				"senior":[
+					{
+						"name":"Chris Dames",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Kevin Healy",
+						"title":"",
+						"alt":"MPS Testbed Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					},
+					{
+						"name":"Boris Rubinsky",
+						"title":"",
+						"alt":"Thrust Area 2 Co-Lead",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					}
+				]
+			}
+		},
+		{
+			"name":"Carnegie Mellon University",
+			"img":{
+				"file":"",
+				"alt":""
+			},
+			"personnel":{
+				"senior":[
+					{
+						"name":"Yoed Rabin",
+						"title":"",
+						"alt":"",
+						"img":{
+							"file":"",
+							"alt":""
+						},
+						"phone":{
+							"direct":"",
+							"mobile":"",
+							"fax":""
+						},
+						"email":""
+					}
+				]
+			}
+		}
+	],
+	"system":{
+		"phone":"123-456-7890",
+		"hours":"M-F 8am - 5pm(CST)"
+	}
+}

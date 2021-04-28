@@ -1,0 +1,33 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_ips"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+		{
+			"element":"h3",
+			"text":"INNOVATION"
+		},
+		{
+			"element":"p",
+			"text":"Inventions, Patents, Spinoffs"
+		}
+	],
+	"content":[
+		{"block":"forms/projects/block/blk_project_innovation_inventions"},
+		{"block":"forms/projects/block/blk_project_innovation_patents"},
+		{"block":"forms/projects/block/blk_project_innovation_licenses"},
+		{"block":"forms/projects/block/blk_project_innovation_spinoffs"},
+		{"block":"forms/projects/block/blk_project_innovation_building"},
+		{"block":"forms/projects/block/blk_project_innovation_technology"},
+		{"block":"forms/projects/block/blk_project_innovation_medical"}
+	]
+}

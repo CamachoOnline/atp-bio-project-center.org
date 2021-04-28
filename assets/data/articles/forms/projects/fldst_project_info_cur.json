@@ -1,0 +1,19 @@
+{
+	"element":"fieldset",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_info"
+		},
+		{
+			"name":"class",
+			"value":["group"]
+		}
+	],
+	"legend":"Project Information",
+	"content":[
+		{"block":"forms/project/block/blk_project_type"},
+		{"block":"forms/project/block/blk_project_numbers"},
+		{"block":"forms/project/block/blk_project_title"}
+	]
+}

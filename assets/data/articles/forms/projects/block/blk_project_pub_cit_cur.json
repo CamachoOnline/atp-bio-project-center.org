@@ -1,0 +1,47 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"title":false,
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"text"
+				},
+				{
+					"name":"id",
+					"value":"pub_cit"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pub_cit"
+				},
+				{
+					"name":"min",
+					"value":"2"
+				},
+				{
+					"name":"max",
+					"value":"255"
+				},
+				{
+					"name":"required"
+				}
+			],
+			"label":"Enter citation",
+			"example":false,
+			"tooltip":false
+		}
+	]
+}

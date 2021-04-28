@@ -1,0 +1,108 @@
+.atp--form{
+	width:100%;
+	-moz-border-radius: $base-border-radius;
+	border-radius: $base-border-radius;
+}
+.atp--fieldset{
+	border:1px solid #333333;
+	padding:$base-padding*2;
+}
+.atp--txt-legend{
+	font-size:$base-txt-1-size*2;
+	font-size:600;
+	line-height:$base-line_height;
+	padding: 0 $base-padding/2; 
+}
+.atp--fieldset > .atp--block{
+	margin-bottom:$base-margin*2;
+}
+.atp--fieldset .atp--hdg-3{
+	font-size:$base-hdg-3-size*1.2;
+	margin-bottom:$base-margin/1.2;
+}
+
+.atp--field{
+	margin-bottom:$base-margin*1.5;
+}
+.atp--field:last-child{
+	margin:0;
+}
+.atp--field .atp--txt-label{
+	color:$base-hdg-color;
+	font-weight:600;
+}
+.atp--field .atp--wrapper{
+	width:100%;
+	display:block;
+}
+.atp--field .atp--example > .atp--txt{
+	margin-top:$base-margin/2;
+}
+.atp--field .atp--example > .atp--txt:first-child{
+	
+}
+
+.atp--form-signin,
+.atp--form-registration{
+	padding:$base-padding*2;
+	background-color:#ffffff ;
+	border-width:$base-border-width;
+	border-style:$base-border-type;
+	border-color:$base-border-color;
+}
+
+.atp--field input, .atp--field textarea, .atp--field select{
+	margin-top: $base-margin/2;
+	padding: $base-padding;
+}
+.atp--field button {
+	margin:0;
+	padding: $base-padding*2 $base-padding*5 $base-padding*1.8;
+
+}
+.atp--field p.error{padding: $base-padding 0% 0% 0%;color:$base-color-error;}
+.atp--field input.error, .atp--field input.error:focus, .atp--field select.error, .atp--field select.error:focus, .atp--field textarea.error, .atp--field textarea.error:focus{
+	color:$base-color-error;
+	border:1px solid $base-color-error;
+}
+.atp--field input, .atp--field input:focus, .atp--field textarea, .atp--field textarea:focus, .atp--field select, .atp--field select:focus {
+  	border: none;
+  	outline: solid 1px #999999;
+  	box-shadow: none;
+	outline-offset: 0;
+}
+.atp--field input[type="text"], .atp--field input[type="password"], .atp--field input[type="textarea"], .atp--field input[type="select"]{
+	width:100%;
+}
+
+.atp--field input[type="radio"], .atp--field input[type="checkbox"]{
+	border:0;
+	outline:none;
+	width:auto;
+}
+
+.atp--field .required{color:#FF0E12;}
+
+@media screen and (min-width: 1px){
+
+	
+
+}
+
+@media screen and (min-width: 768px){
+
+
+
+}
+
+@media screen and (min-width: 960px){
+
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+
+
+}

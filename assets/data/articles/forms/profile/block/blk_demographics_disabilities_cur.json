@@ -1,0 +1,240 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"user_disabilities"
+		},
+		{
+			"name":"class",
+			"value":["col","col-4"]
+		},
+		{
+			"name":"required"
+		}
+	],
+	"title":[
+		{
+			"element":"h3",
+			"text":"Disabilities"
+		}
+	],
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"disability1"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_dis"
+				},
+				{
+					"name":"value",
+					"value":"Blind or visually impaired"
+				}
+				
+			],
+			"label":"Blind or visually impaired"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"disability2"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_dis"
+				},
+				{
+					"name":"value",
+					"value":"Deaf or hard of hearing"
+				}
+				
+			],
+			"label":"Deaf or hard of hearing"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"disability3"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_dis"
+				},
+				{
+					"name":"value",
+					"value":"Physical or orthopedic disability"
+				}
+				
+			],
+			"label":"Physical or orthopedic disability"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"disability4"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_dis"
+				},
+				{
+					"name":"value",
+					"value":"Learning or cognitive disability"
+				}
+				
+			],
+			"label":"Learning or cognitive disability"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"disability5"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_dis"
+				},
+				{
+					"name":"disabilities",
+					"value":"Vocal or speech disability"
+				}
+				
+			],
+			"label":"Vocal or speech disability"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"disability6"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_dis"
+				},
+				{
+					"name":"value",
+					"value":"Other disability"
+				}
+				
+			],
+			"label":"Other disability"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"disability7"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_dis"
+				},
+				{
+					"name":"value",
+					"value":"None"
+				}
+				
+			],
+			"label":"None"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"disability8"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_dis"
+				},
+				{
+					"name":"value",
+					"value":"Do not wish to report"
+				}
+				
+			],
+			"label":"Do not wish to report"
+		}
+	]
+}

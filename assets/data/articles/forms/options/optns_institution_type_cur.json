@@ -1,0 +1,35 @@
+[
+	{
+		"name":"Lead institution",
+		"value":"Lead institution"
+	},
+	{
+		"name":"Core partner",
+		"value":"Core partner"
+	},
+	{
+		"name":"Collaborating Institution",
+		"value":"Collaborating Institution"
+	},
+	{
+		"name":"Foreign partner",
+		"value":"Foreign partner"
+	},
+	{
+		"name":"Non-ERC Institution Providing REUs",
+		"value":"Non-ERC Institution Providing REUs"
+	},
+	{
+		"name":"Community College",
+		"value":"Community College"
+	},
+	{
+		"name":"Pre-College Partner",
+		"value":"Pre-College Partner"
+	},
+	{
+		"name":"Diversity Alliance",
+		"value":"Diversity Alliance",
+		"data-add":"forms/templates/tmp_institution_type_diversityalliance_add"
+	}
+]

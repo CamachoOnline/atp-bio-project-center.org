@@ -1,0 +1,22 @@
+{
+	"element":"form",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"personnel_signin"
+		},
+		{
+			"name":"class",
+			"value":["form-signin"]
+		},
+		{
+			"name":"name",
+			"value":"form_signin"
+		}	
+	],
+	"title":false,
+	"content":[
+		{"block":"forms/signin/block/blk_userpassword"},
+		{"block":"forms/signin/block/blk_register"}	
+	]
+}

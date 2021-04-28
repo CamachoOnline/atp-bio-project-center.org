@@ -1,0 +1,32 @@
+{
+	"element":"input",
+	"attributes":[
+		{
+			"name":"type",
+			"value":"text"
+		},
+		{
+			"name":"id",
+			"value":"middle_initial"
+		},
+		{
+			"name":"class",
+			"value":[]
+		},
+		{
+			"name":"name",
+			"value":"per_mdi"
+		},
+		{
+			"name":"min",
+			"value":"1"
+		},
+		{
+			"name":"max",
+			"value":"1"
+		}
+	],
+	"label":"M.I.",
+	"example":false,
+	"tooltip":false
+}

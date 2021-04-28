@@ -1,0 +1,21 @@
+{
+	"element":"fieldset",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"demographics"
+		},
+		{
+			"name":"class",
+			"value":["group"]
+		}
+	],
+	"legend":"Demographics",
+	"content":[
+		{"block":"forms/profile/block/blk_demographics_citizenship"},
+		{"block":"forms/profile/block/blk_demographics_gender"},
+		{"block":"forms/profile/block/blk_demographics_ethnicity"},
+		{"block":"forms/profile/block/blk_demographics_race"},
+		{"block":"forms/profile/block/blk_demographics_disabilities"}
+	]
+}

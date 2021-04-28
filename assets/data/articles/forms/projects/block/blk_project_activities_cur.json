@@ -1,0 +1,28 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"projects_oie"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+		{
+			"element":"h3",
+			"text":"ENTREPRENEURIAL ACTIVITIES"
+		},
+		{
+			"element":"p",
+			"text":"Organization Involvement in Innovation & Entrepreneurial Activities"
+		}
+	],
+	"content":[
+		
+		
+	]
+}

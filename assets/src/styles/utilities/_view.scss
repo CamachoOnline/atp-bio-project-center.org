@@ -1,0 +1,14 @@
+/* View */
+.atp--hidden{display:none;}
+
+.atp--field.prefilled > .atp--wrapper > .atp--label{
+	
+}
+.atp--field.prefilled > .atp--wrapper > .atp--input{
+	border: 0;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    color: #999;
+    font-weight: 100;
+}

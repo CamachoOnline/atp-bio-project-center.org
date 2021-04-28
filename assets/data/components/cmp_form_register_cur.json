@@ -1,0 +1,21 @@
+{
+	"element":"form",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"personnel_registration"
+		},
+		{
+			"name":"class",
+			"value":["form-registration"]
+		},
+		{
+			"name":"name",
+			"value":"form_registration"
+		}
+	],
+	"title":false,
+	"content":[
+		{"block":"forms/register/block/blk_name_fullname"}	
+	]
+}

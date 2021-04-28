@@ -1,0 +1,27 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_pub"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+		{
+			"element":"h3",
+			"text":"PUBLICATIONS"
+		},
+		{
+			"element":"p",
+			"text":"Citations, uploadable document, peer reviewed technical journals, and authors"
+		}
+	],
+	"content":[
+		{"block":"forms/templates/tmp_project_publication_cit"}
+	]
+}

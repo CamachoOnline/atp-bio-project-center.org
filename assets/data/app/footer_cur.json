@@ -1,0 +1,16 @@
+{
+	"ref":"061515200518_202001013",
+	"name":"Footer",
+	"type":"footer",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"footer"
+		},
+		{
+			"name":"class",
+			"value":["site"]
+		}
+	],
+	"content":false
+}

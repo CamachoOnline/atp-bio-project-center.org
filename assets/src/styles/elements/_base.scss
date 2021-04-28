@@ -1,0 +1,14 @@
+/* elements - base */
+html{
+	background-color:$base-color-ter;
+}
+body{
+	font-family:$base-font-family;
+	font-size:$base-font-size;
+	color:$base-font-color;
+	line-height:$base-line_height;
+}
+h1,h2,h3,h4,h5,h6,
+p,span,label,input,select,textarea,
+b,i,strong,big,em,code,
+sub,sup,del,pre,samp{font-size:100%;}

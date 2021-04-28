@@ -1,0 +1,107 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_translational"
+		},
+		{
+			"name":"class",
+			"value":["col","col-3"]
+		},
+		{
+			"name":"required"
+		}
+	],
+	"title":[
+		{
+			"element":"h3",
+			"text":"Is this work considered translational?"
+		}
+	],
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"radio"
+				},
+				{
+					"name":"id",
+					"value":"translational1"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_tsl"
+				},
+				{
+					"name":"value",
+					"value":"Female"
+				}
+				
+			],
+			"label":"Yes"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"radio"
+				},
+				{
+					"name":"id",
+					"value":"translational2"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_tsl"
+				},
+				{
+					"name":"value",
+					"value":"No"
+				}
+				
+			],
+			"label":"No"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"radio"
+				},
+				{
+					"name":"id",
+					"value":"translational3"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_tsl"
+				},
+				{
+					"name":"value",
+					"value":"I don't know"
+				}
+				
+			],
+			"label":"I don't know"
+		}
+	],
+	"example":false,
+	"tooltip":"Research that explores issues involved in moving a technology from the proof-of-concept stage through the early phases of product development and commercialization in collaboration with industry and funded by industry, NSF, or other source(s) external to the Center."
+}

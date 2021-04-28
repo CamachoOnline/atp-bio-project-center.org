@@ -1,0 +1,50 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_summary"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		},
+		{
+			"name":"required"
+		}
+	],
+	"title":[
+		{
+			"element":"h3",
+			"text":"Project Quad Chart (file upload)"
+		}
+	],
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"file"
+				},
+				{
+					"name":"id",
+					"value":"project_summary"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_sum"
+				}
+				
+			],
+			"label":"Yes"
+		}
+		
+	],
+	"example":"Only Microsoft PowerPoint (.pptx)",
+	"tooltip":false
+}

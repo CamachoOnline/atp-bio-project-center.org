@@ -1,0 +1,40 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"user_ethnicity"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"title":false,
+	"content":[
+		{
+			"element":"select",
+			"attributes":[
+				{
+					"name":"id",
+					"value":"ethnicity"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_ety"
+				},
+				{
+					"name":"required"
+				}
+			],
+			"label":"Ethnicity",
+			"options":["forms/options/optns_ethnicity"],
+			"tooltip":false
+		}
+		
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"element":"fieldset",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"student"
+		},
+		{
+			"name":"class",
+			"value":["group"]
+		}
+	],
+	"legend":"Student Information",
+	"view":["students"],
+	"content":[
+		{"block":"forms/profile/block/blk_demographics_degree_sought"},
+		{"block":"forms/profile/block/blk_user_graduation"},
+		{"block":"forms/profile/block/blk_user_advisor"}
+	]
+}

@@ -1,0 +1,184 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"user_race"
+		},
+		{
+			"name":"class",
+			"value":["col","col-4"]
+		}
+	],
+	"title":[
+		{
+			"element":"h3",
+			"text":"What's your Race"
+		}
+	],
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"race1"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_rce"
+				},
+				{
+					"name":"value",
+					"value":"American Indian or Alaska Native"
+				}
+				
+			],
+			"label":"American Indian or Alaska Native",
+			"required":true
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"race2"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_rce"
+				},
+				{
+					"name":"value",
+					"value":"Asian"
+				}
+				
+			],
+			"label":"Asian"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"race3"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_rce"
+				},
+				{
+					"name":"value",
+					"value":"Black or African-American"
+				}
+				
+			],
+			"label":"Black or African-American"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"race4"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_rce"
+				},
+				{
+					"name":"value",
+					"value":"Native Hawaiian or Pacific Islander"
+				}
+				
+			],
+			"label":"Native Hawaiian or Pacific Islander"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"race5"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_rce"
+				},
+				{
+					"name":"value",
+					"value":"White"
+				}
+				
+			],
+			"label":"White"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"race5"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_rce"
+				},
+				{
+					"name":"value",
+					"value":"Do not wish to report"
+				}
+				
+			],
+			"label":"Do not wish to report"
+		}
+	]
+}

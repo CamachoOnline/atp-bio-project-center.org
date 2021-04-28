@@ -1,0 +1,259 @@
+{
+  "element": "div",
+  "attributes": [
+      {
+          "name": "id",
+          "value": "institution_diversityalliance_type_add"
+      },
+      {
+          "name": "class",
+          "value": ["col", "col-1", "hidden"]
+      }
+  ],
+  "title": [
+      {
+          "element": "h3",
+          "text": "Add Diversity Alliance Type"
+      },
+      {
+          "element": "p",
+          "text": "Please select one or all that apply."
+      }
+  ],
+  "content": [
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type1_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "ADVANCE"
+              }
+          ],
+          "label": "ADVANCE"
+
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type2_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "AGEP"
+              }
+          ],
+          "label": "AGEP"
+
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type3_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "CREST"
+              }
+          ],
+          "label": "CREST"
+
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type4_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "HBCU-UP"
+              }
+          ],
+          "label": "HBCU-UP"
+
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type5_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "LSAMP"
+              }
+          ],
+          "label": "LSAMP"
+
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type6_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "LSAMP-BD"
+              }
+          ],
+          "label": "LSAMP-BD"
+
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type7_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "RDE"
+              }
+          ],
+          "label": "RDE"
+
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type8_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "TCUP"
+              }
+          ],
+          "label": "TCUP"
+
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_diversityalliance_type9_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Other"
+              }
+          ],
+          "label": "Other"
+
+      }
+  ]
+}

@@ -1,0 +1,43 @@
+.atp--page{
+	background-color:$base-color-ter;
+}
+
+.atp--page > .atp--title{
+	padding:$base-padding*3 0 $base-padding*3 0;
+	margin:0 0 $base-margin*3 0;
+	border-width:$base-border-width;
+	border-style:$base-border-type;
+	border-color:$base-border-color;
+}
+
+.atp--page > .atp--content{
+	margin:0 0 $base-margin*3 0;
+}
+
+.atp--page > .atp--content{
+	display:grid;
+}
+
+@media screen and (min-width: 1px){
+
+
+
+}
+
+@media screen and (min-width: 768px){
+
+
+
+}
+
+@media screen and (min-width: 960px){
+
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+	
+
+}

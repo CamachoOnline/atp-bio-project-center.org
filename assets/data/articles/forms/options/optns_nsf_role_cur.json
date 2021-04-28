@@ -1,0 +1,86 @@
+[
+	{
+		"name":"Director",
+		"value":"Director"
+	},
+	{
+		"name":"Thrust Leader",
+		"value":"Thrust Leader"
+	},
+	{
+		"name":"Research Thrust Management & Strategic Planning",
+		"value":"Research Thrust Management & Strategic Planning"
+	},
+	{
+		"name":"Education Program Leader",
+		"value":"Education Program Leader"
+	},
+	{
+		"name":"Administrative Director",
+		"value":"Administrative Director"
+	},
+	{
+		"name":"Strategic Partner and Innovation Director",
+		"value":"Strategic Partner and Innovation Director"
+	},
+	{
+		"name":"Admin Staff",
+		"value":"Admin Staff"
+	},
+	{
+		"name":"Senior Faculty",
+		"value":"Senior Faculty"
+	},
+	{
+		"name":"Junior Faculty",
+		"value":"Junior Faculty"
+	},
+	{
+		"name":"Research Staff",
+		"value":"Research Staff"
+	},
+	{
+		"name":"Visiting Faculty",
+		"value":"Visiting Faculty"
+	},
+	{
+		"name":"Industry Researcher",
+		"value":"Industry Researcher"
+	},
+	{
+		"name":"Post Doc",
+		"value":"Post Doc"
+	},
+	{
+		"name":"Doctoral Student",
+		"value":"Doctoral Student"
+	},
+	{
+		"name":"Masters Student",
+		"value":"Masters Student"
+	},
+	{
+		"name":"Undergraduate Student",
+		"value":"Undergraduate Student"
+	},
+	{
+		"name":"Other visiting College Student",
+		"value":"Other visiting College Student"
+	},
+	{
+		"name":"ATP-Bio REU",
+		"value":"ATP-Bio REU"
+	},
+	{
+		"name":"ATP-Bio RET",
+		"value":"ATP-Bio RET"
+	},
+	{
+		"name":"K12 Teacher",
+		"value":"K12 Teacher"
+	},
+	{
+		"name":"Other",
+		"value":"Other"
+	}
+]

@@ -1,0 +1,49 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"user_role_add"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1","hidden"]
+		}
+	],
+	"title":[
+		{
+			"element":"h3",
+			"text":"Add Role"
+		},
+		{
+			"element":"p",
+			"text":false
+		}
+	],
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"text"
+				},
+				{
+					"name":"id",
+					"value":"nsf_roleclassification_add"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_rle"
+				}
+			],
+			"label":"NSF Classification",
+			"example":false,
+			"tooltip":false
+		}
+	]
+}

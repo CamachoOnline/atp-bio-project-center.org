@@ -1,0 +1,16 @@
+{
+	"ref":"080501040518_202001013",
+	"name":"Header",
+	"type":"header",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"header"
+		},
+		{
+			"name":"class",
+			"value":["site","header"]
+		}
+	],
+	"content":false
+}

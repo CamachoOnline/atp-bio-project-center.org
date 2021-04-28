@@ -1,0 +1,102 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"profile_project"
+		},
+		{
+			"name":"class",
+			"value":["profile-project"]
+		}
+	],
+	"title":[
+		{
+			"element":"h2",
+			"text":"Project Type"
+		}
+	],
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"radio"
+				},
+				{
+					"name":"id",
+					"value":"project_type1"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_typ"
+				},
+				{
+					"name":"value",
+					"value":"ATP-Bio Core-Funded"
+				}
+
+			],
+			"label":"ATP-Bio Core-Funded"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"radio"
+				},
+				{
+					"name":"id",
+					"value":"project_type2"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_typ"
+				},
+				{
+					"name":"value",
+					"value":"Non-ATP-Bio ASSOCIATED Project"
+				}
+
+			],
+			"label":"Non-ATP-Bio ASSOCIATED Project"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"radio"
+				},
+				{
+					"name":"id",
+					"value":"project_type3"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_typ"
+				},
+				{
+					"name":"value",
+					"value":"Sponsored ATP-Bio Project"
+				}
+
+			],
+			"label":"Sponsored ATP-Bio Project"
+		}
+	]
+}

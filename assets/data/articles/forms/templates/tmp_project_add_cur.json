@@ -1,0 +1,25 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"profile_project"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1","template"]
+		}
+	],
+	"title":false,
+	"content":[
+		{"block":"forms/projects/block/blk_project_base"},
+		{"block":"forms/projects/block/blk_project_publications"},
+		{"block":"forms/projects/block/blk_project_inventpatsspin"},
+		{"block":"forms/projects/block/blk_project_workshops"},
+		{"block":"forms/projects/block/blk_project_curriculum"},
+		{"block":"forms/projects/block/blk_project_semcolltalks"},
+		{"block":"forms/projects/block/blk_project_exchanges"},
+		{"block":"forms/projects/block/blk_project_activities"},
+		{"block":"forms/projects/block/blk_project_donations"}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"reg_block"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"title":[
+		{
+			"element":"p",
+			"text":"If you do not have an account please register <a href=\"https://atp-bio-project-center.org/register.php\">here</a>"
+		}
+	],
+	"content":[]
+}

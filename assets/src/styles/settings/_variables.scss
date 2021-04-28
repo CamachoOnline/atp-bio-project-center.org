@@ -1,0 +1,44 @@
+/* VAIRIABLES */
+$base-width-mobile: 100%;
+$base-width-tablet:100%;
+$base-width-desktop:1200px;
+$base-color-pri: #333333;
+$base-color-sec: #999999;
+$base-color-ter: #EFEFEF;
+$base-font-family: Helvetical, Arial, sans-serif;
+$base-font-size: 1em;
+$base-font-color: #666666;
+$base-line_height: 1;
+$base-color-error: #ff0000;
+$base-border-width: .025em;
+$base-border-type: solid;
+$base-border-color: #CCCCCC;
+
+$base-hdg-color:#333333;
+$base-hdg-1-size: 3.5em;
+$base-hdg-2-size: 1.5em;
+$base-hdg-3-size: 1em;
+$base-hdg-4-size: 1em;
+$base-hdg-5-size: .92em;
+$base-hdg-6-size: .92em;
+
+$base-txt-desc-size: 1.2em;
+$base-txt-1-size: 1em;
+$base-txt-2-size: .92em;
+$base-txt-list-size: .75em;
+
+$base-padding: 1%;
+$base-margin: 1%;
+$base-line-width:$base-padding/4;
+
+$base-button-case: uppercase;
+$base-button-weight: 600;
+$base-button-bgcolor: $base-color-pri;
+$base-button-color: $base-color-ter;
+
+$base-border-radius: 1%;
+
+$base-position: relative;
+
+$font-face-text: 'Roboto Condensed';
+$font-face-head: 'Noto Sans';

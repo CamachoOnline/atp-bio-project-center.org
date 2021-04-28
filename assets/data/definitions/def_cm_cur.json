@@ -1,0 +1,26 @@
+{
+	"organization":{
+		"name":"ATP-Bio",
+		"domains":{
+			"website":""
+		},
+		"affiliation":"University of Minnesota",
+		"address":{
+			"street":"",
+			"city":"",
+			"state":"",
+			"zip":""
+		}
+	},
+	"director":{
+		""
+	},
+	"super_admin":{
+		"name":{
+			"first":"Alyssa",
+			"middle":"Ann",
+			"last":"Burger"
+		},
+		"phone":""
+	}
+}

@@ -1,0 +1,323 @@
+{
+  "element": "div",
+  "attributes": [
+	  {
+          "name": "id",
+          "value": "institution_details_add"
+      },
+      {
+          "name": "class",
+          "value": ["col", "col-4"]
+      }
+  ],
+  "title": [{
+          "element": "h3",
+          "text": "Institutional Detials"
+      },
+      {
+          "element": "p",
+          "text": "Does this institution enroll populations with significant percentages of women and/or minority students."
+      }
+  ],
+  "content": [{
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details1_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Alaska Native-Serving Institution"
+              }
+          ]
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details2_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "American Indian Tribally Controlled Collegegs and Universities"
+              }
+          ],
+          "label": "American Indian Tribally Controlled Collegegs and Universities"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details3_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Asian American and Native American Pactific Islander-Serving Institutions"
+              }
+          ],
+          "label": "Asian American and Native American Pactific Islander-Serving Institutions"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details4_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "High Hispanic Enrollment"
+              }
+          ],
+          "label": "High Hispanic Enrollment"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details5_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Hispanic-Serving Institutions (HSI)"
+              }
+          ],
+          "label": "Hispanic-Serving Institutions (HSI)"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details6_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Historically Black Colleges and Universities (HBCU)"
+              }
+          ],
+          "label": "Historically Black Colleges and Universities (HBCU)"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details7_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Minority Institution"
+              }
+          ],
+          "label": "Minority Institution"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details8_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Native American-Serving Nontribal Institution"
+              }
+          ],
+          "label": "Native American-Serving Nontribal Institution"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details9_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Native Hawaiian-Serving Institution"
+              }
+          ],
+          "label": "Native Hawaiian-Serving Institution"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details10_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Predominantly Black Institution (PBIs)"
+              }
+          ],
+          "label": "Predominantly Black Institution (PBIs)"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details11_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Predominately Female Students"
+              }
+          ],
+          "label": "Predominately Female Students"
+      },
+      {
+          "element": "input",
+          "attributes": [{
+                  "name": "type",
+                  "value": "checkbox"
+              },
+              {
+                  "name": "id",
+                  "value": "institution_details12_add"
+              },
+              {
+                  "name": "class",
+                  "value": []
+              },
+              {
+                  "name": "name",
+                  "value": ""
+              },
+              {
+                  "name": "value",
+                  "value": "Large Number of Underrepresented Minority Students in Engineering (LNURM)"
+              }
+          ],
+          "label": "Large Number of Underrepresented Minority Students in Engineering (LNURM)"
+      }
+  ]
+
+}

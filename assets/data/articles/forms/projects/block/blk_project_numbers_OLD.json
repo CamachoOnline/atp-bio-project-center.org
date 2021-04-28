@@ -1,0 +1,40 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_number"
+		},
+		{
+			"name":"class",
+			"value":["col","col-3"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":false,
+	"content":[
+		{
+			"element":"select",
+			"attributes":[
+				{
+					"name":"id",
+					"value":"project_number"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_prn"
+				},
+				{
+					"name":"required"
+				}
+			],
+			"label":"Project Number",
+			"options":["forms/options/optns_pro_prn"],
+			"tooltip":false
+		}
+	]
+}

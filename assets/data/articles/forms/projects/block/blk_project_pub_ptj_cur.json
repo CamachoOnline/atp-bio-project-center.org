@@ -1,0 +1,35 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"title":false,
+	"content":[
+		{
+			"element":"select",
+			"attributes":[
+				{
+					"name":"id",
+					"value":"pub_ptj"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pub_ptj"
+				},
+				{
+					"name":"required"
+				}
+			],
+			"label":"Peer-reviewed technical journal",
+			"options":["forms/options/optns_pub_ptj"],
+			"tooltip":false
+		}
+	]
+}

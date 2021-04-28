@@ -1,0 +1,42 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"demographics_citizenship_country_add"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1","hidden"]
+		}
+	],
+	"title":[
+		{
+			"element":"h3",
+			"text":"Add County Citizenship"
+		}
+	],
+	"content":[
+		{
+			"element":"select",
+			"attributes":[
+				{
+					"name":"id",
+					"value":"citizenship_country"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"dem_ctz"
+				}
+			],
+			"label":"Country",
+			"options":["forms/options/optns_country"],
+			"tooltip":false
+		}
+	],
+	"tooltip":false
+}

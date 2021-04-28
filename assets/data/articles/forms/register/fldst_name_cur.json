@@ -1,0 +1,18 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"name"
+		},
+		{
+			"name":"class",
+			"value":["group"]
+		}
+	],
+	"legend":false,
+	"title":false,
+	"content":[
+		{"block":"forms/registration/block/blk_name_fullname"}
+	]
+}

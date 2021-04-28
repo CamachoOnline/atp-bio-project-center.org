@@ -1,0 +1,28 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_ioc"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+		{
+			"element":"h3",
+			"text":"INFLUENCE ON CURRICULUM"
+		},
+		{
+			"element":"p",
+			"text":"New degree courses, curriculum, programs, minors, certificate programs, etc."
+		}
+	],
+	"content":[
+		
+		
+	]
+}

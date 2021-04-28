@@ -1,0 +1,34 @@
+{
+	"element":"form",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"atp-bio_projects"
+		},
+		{
+			"name":"class",
+			"value":["form-projects"]
+		},
+		{
+			"name":"name",
+			"value":"form_projects"
+		},
+		{
+			"name":"method",
+			"value":"post"
+		},
+		{
+			"name":"onsubmit",
+			"value":"form_validate(this);"
+		},
+		{
+			"name":"action",
+			"value":false
+		}
+	],
+	"title":false,
+	"content":[
+		{"article":"forms/projects/fldst_project_info"},
+		
+	]
+}

@@ -1,0 +1,50 @@
+.atp--block.atp--col > .atp--content{
+	display:grid;
+}
+.atp--block.atp--col-1 > .atp--content{
+	grid-template-columns: 1fr;
+}
+.atp--block.atp--col-2 > .atp--content{
+	grid-template-columns: 1fr 1fr;
+}
+.atp--block.atp--col-3 > .atp--content{
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.atp--block.atp--col-4 > .atp--content{
+	grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.atp--block.atp--col-5 > .atp--content{
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+}
+.atp--block.atp--col-6 > .atp--content{
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+.atp--block.atp--col-7 > .atp--content{
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+.atp--block.atp--col-8 > .atp--content{
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+@media screen and (min-width: 1px){
+
+
+
+}
+
+@media screen and (min-width: 768px){
+
+
+
+}
+
+@media screen and (min-width: 960px){
+
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+	
+
+}

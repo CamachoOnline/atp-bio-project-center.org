@@ -1,0 +1,115 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"profile_project_agency"
+		},
+		{
+			"name":"class",
+			"value":["profile-project-agency"]
+		}
+	],
+	"title":false,
+	"content":[
+    {
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"text"
+				},
+				{
+					"name":"id",
+					"value":"project_agency_name"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_fda"
+				},
+				{
+					"name":"min",
+					"value":"2"
+				},
+				{
+					"name":"max",
+					"value":"1"
+				}
+			],
+			"label":"M.I.",
+			"example":false,
+			"tooltip":"Associated project funds are not controlled by the Center and are
+reported as indirect sources of support. Only direct costs for these
+projects should be reported."
+		},
+    {
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"text"
+				},
+				{
+					"name":"id",
+					"value":"project_agency_dop"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_dop"
+				},
+				{
+					"name":"min",
+					"value":"10"
+				},
+				{
+					"name":"max",
+					"value":"255"
+				}
+			],
+			"label":"Dates of project",
+			"example":"Comma seperated list of dates \"mm/dd/yyyy\".",
+			"tooltip":"Projects with a restricted or directed purpose that is specified by the funding source. Sponsored projects augment the Center's core activities. The award goes directly to the Center for a specific project and is classified as restricted cash. Examples of sponsored projects include REU supplements, Defense Advanced Research Projects Agency (DARPA) awards to the Center, and industry-sponsored projects with clearly intended outcomes or activities."
+		},
+    {
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"text"
+				},
+				{
+					"name":"id",
+					"value":"project_agency_drs"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_drs"
+				},
+				{
+					"name":"min",
+					"value":"2"
+				},
+				{
+					"name":"max",
+					"value":"255"
+				}
+			],
+			"label":"Direct Support",
+			"example":false,
+			"tooltip":false
+		}
+
+  ]
+}

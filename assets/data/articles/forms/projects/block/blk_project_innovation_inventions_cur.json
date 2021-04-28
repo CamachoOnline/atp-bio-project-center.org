@@ -1,0 +1,23 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_innovation_inventions"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+    {
+      "element":"h3",
+      "text":"Inventions"
+    }
+  ],
+	"content":[
+    {"block":"forms/templates/tmp_project_innovation_inventions"},
+  ]
+}

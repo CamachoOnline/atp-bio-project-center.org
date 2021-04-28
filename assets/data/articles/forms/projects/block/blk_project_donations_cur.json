@@ -1,0 +1,28 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"projects_dns"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+		{
+			"element":"h3",
+			"text":"DONATIONS"
+		},
+		{
+			"element":"p",
+			"text":false
+		}
+	],
+	"content":[
+		
+		
+	]
+}

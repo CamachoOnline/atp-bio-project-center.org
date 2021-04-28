@@ -1,0 +1,39 @@
+{
+	"element":"form",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"personnel_profile"
+		},
+		{
+			"name":"class",
+			"value":["form-personnel"]
+		},
+		{
+			"name":"name",
+			"value":"form_personnel"
+		},
+		{
+			"name":"method",
+			"value":"post"
+		},
+		{
+			"name":"onsubmit",
+			"value":"form_validate(this);"
+		},
+		{
+			"name":"action",
+			"value":false
+		}
+	],
+	"title":false,
+	"content":[
+		{"article":"forms/profile/fldst_personnel"},
+		{"article":"forms/profile/fldst_institution"},
+		{"article":"forms/profile/fldst_student"},
+		{"article":"forms/profile/fldst_demographics"},
+		{"article":"forms/profile/fldst_additional"},
+		{"article":"forms/profile/fldst_projects"}
+		
+	]
+}

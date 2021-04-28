@@ -1,0 +1,28 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_sci"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+		{
+			"element":"h3",
+			"text":"SYMPOSIA"
+		},
+		{
+			"element":"p",
+			"text":"Seminars, Colloquia, Invited Talks"
+		}
+	],
+	"content":[
+		
+		
+	]
+}

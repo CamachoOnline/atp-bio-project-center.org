@@ -1,0 +1,80 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"additional_graduation_date"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"title":[
+		{
+			"element":"h3",
+			"text":"Graduation Date"
+		}
+	],
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"radio"
+				},
+				{
+					"name":"id",
+					"value":"graddate1"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"graduation_date"
+				},
+				{
+					"name":"value",
+					"value":"Not applicable"
+				},
+				{
+					"name":"required"
+				}
+			],
+			"label":"Not applicable"
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"radio"
+				},
+				{
+					"name":"id",
+					"value":"graddate1"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"graduation_date"
+				},
+				{
+					"name":"value",
+					"value":"Enter Date"
+				},
+				{
+					"name":"data-trig",
+					"value":"additional_enter_date | unhide,hide"
+				}
+			],
+			"label":"Enter Date"
+		}
+	]
+}

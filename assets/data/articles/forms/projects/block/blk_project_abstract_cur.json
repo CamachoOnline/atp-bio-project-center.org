@@ -1,0 +1,40 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_abstract"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"title":false,
+	"content":[
+		{
+			"element":"textarea",
+			"attributes":[
+				{
+					"name":"id",
+					"value":"project_abstract"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_abs"
+				},
+				{
+					"name":"required"
+				}
+				
+			],
+			"label":"Project Abstract",
+			"example":false,
+			"tooltip":false
+		}
+	]
+}

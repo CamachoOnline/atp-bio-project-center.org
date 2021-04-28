@@ -1,0 +1,26 @@
+[
+	{
+		"name":"Faculty",
+		"value":"Faculty"
+	},
+	{
+		"name":"Admin Staff",
+		"value":"Admin Staff"
+	},
+	{
+		"name":"Staff",
+		"value":"Staff"
+	},
+	{
+		"name":"Student",
+		"value":"Student"
+	},
+	{
+		"name":"Trainee",
+		"value":"Trainee"
+	},
+	{
+		"name":"Industry",
+		"value":"Industry"
+	}
+]

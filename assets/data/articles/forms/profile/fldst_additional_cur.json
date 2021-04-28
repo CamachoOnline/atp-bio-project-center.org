@@ -1,0 +1,18 @@
+{
+	"element":"fieldset",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"additional"
+		},
+		{
+			"name":"class",
+			"value":["group","noborder"]
+		}
+	],
+	"legend":"Additional / Misc. Information",
+	"content":[
+		{"block":"forms/profile/block/blk_user_graduation"},
+		{"block":"forms/profile/block/blk_user_sector"}
+	]
+}

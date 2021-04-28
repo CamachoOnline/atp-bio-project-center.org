@@ -1,0 +1,209 @@
+{
+	"element": "div",
+	"attributes": [
+		{
+			"name": "id",
+			"value": "institution_add"
+		},
+		{
+			"name": "class",
+			"value": ["col", "col-1", "hidden"]
+		}
+	],
+	"title": [
+		{
+			"element":"h3",
+			"text":"Add Institution"
+		},
+		{
+			"element":"p",
+			"text":"please provide institution information."
+		}
+	],
+	"content": [
+		{
+			"element": "input",
+			"attributes": [
+				{
+					"name": "type",
+					"value": "text"
+				},
+				{
+					"name": "id",
+					"value": "institution_name_add"
+				},
+				{
+					"name": "class",
+					"value": []
+				},
+				{
+					"name": "name",
+					"value": "int_nme"
+				},
+				{
+					"name": "min",
+					"value": "2"
+				},
+				{
+					"name": "max",
+					"value": "255"
+				}
+			],
+			"label": "Name",
+			"example": "University of Minnesota"
+		},
+		{
+			"element": "select",
+			"attributes": [
+				{
+					"name": "type",
+					"value": "text"
+				},
+				{
+					"name": "id",
+					"value": "institution_type_add"
+				},
+				{
+					"name": "class",
+					"value": []
+				},
+				{
+					"name": "name",
+					"value": "int_typ"
+				}
+
+			],
+			"label": "Type",
+			"options": ["forms/options/optns_institution_type"]
+			
+		},
+		{
+			"element":"textarea",
+			"attributes":[
+				{
+					"name": "id",
+					"value": "institution_detail_add"
+				},
+				{
+					"name": "class",
+					"value": []
+				},
+				{
+					"name": "name",
+					"value": "int_dtl"
+				}
+			]
+		},
+		{
+			"element": "select",
+			"attributes": [
+				{
+					"name": "id",
+					"value": "institution_country_add"
+				},
+				{
+					"name": "class",
+					"value": []
+				},
+				{
+					"name": "name",
+					"value": "int_cry"
+				}
+
+			],
+			"label": "Country",
+			"options": ["forms/options/optns_country"]
+		},
+		{
+			"element": "input",
+			"attributes": [
+				{
+					"name": "type",
+					"value": "text"
+				},
+				{
+					"name": "id",
+					"value": "institution_city_add"
+				},
+				{
+					"name": "class",
+					"value": []
+				},
+				{
+					"name": "name",
+					"value": "int_cty"
+				},
+				{
+					"name": "min",
+					"value": "2"
+				},
+				{
+					"name": "max",
+					"value": "255"
+				}
+			],
+			"label": "City",
+			"example": false	
+		},
+		{
+			"element": "input",
+			"attributes": [{
+					"name": "type",
+					"value": "text"
+				},
+				{
+					"name": "id",
+					"value": "institution_state_add"
+				},
+				{
+					"name": "class",
+					"value": []
+				},
+				{e
+					"name": "name",
+					"value": "int_ste"
+				},
+				{
+					"name": "min",
+					"value": "2"
+				},
+				{
+					"name": "max",
+					"value": "255"
+				}
+			],
+			"label": "State"
+		},
+		{
+			"element": "input",
+			"attributes": [{
+					"name": "type",
+					"value": "text"
+				},
+				{
+					"name": "id",
+					"value": "institution_zip_add"
+				},
+				{
+					"name": "class",
+					"value": []
+				},
+				{
+					"name": "name",
+					"value": "int_zip"
+				},
+				{
+					"name": "min",
+					"value": "5"
+				},
+				{
+					"name": "max",
+					"value": "5"
+				}
+			],
+			"label": "Zip"	
+		}
+		
+	]
+	
+}

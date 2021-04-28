@@ -1,0 +1,56 @@
+{
+	"name":"Profile",
+	"type":"page",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"profile"
+		},
+		{
+			"name":"class",
+			"value":["page-profile","col","col-1"]
+		},
+		{
+			"name":"data-layout",
+			"value":"standard"
+		}
+	],
+	"meta":[
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"description"
+				},
+				{
+					"name":"content",
+					"value":"Personal, Institutional, Role, and Project information related to a individual ATP-Bio ERC participant."
+				}
+			]
+		},
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"keywords"
+				},
+				{
+					"name":"content",
+					"value":"atp-bio, registor, personnel, profile, information, personal, institution, residency"
+				}
+			]
+		}
+	],
+	"styles":false,
+	"scripts":false,
+	"title":[
+		{
+			"element":"h1",
+			"text":"Personnel Profile"
+		}
+	],
+	"content":[
+		{"component":"cmp_form_profile"}
+	]
+	
+}

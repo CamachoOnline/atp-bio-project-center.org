@@ -1,0 +1,21 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_pub_cit1"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1","template"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":false,
+	"content":[
+		{"block":"forms/projects/block/blk_project_pub_cit"},
+		{"block":"forms/projects/block/blk_project_pub_doc"},
+		{"block":"forms/projects/block/blk_project_pub_ptj"},
+		{"block":"forms/projects/block/blk_project_pub_aut"}
+	]
+}

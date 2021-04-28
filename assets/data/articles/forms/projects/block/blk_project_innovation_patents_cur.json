@@ -1,0 +1,23 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_ips_pats"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+    {
+      "element":"h4",
+      "text":"Patents"
+    }
+  ],
+	"content":[
+    {"block":"forms/templates/tmp_project_innovation_patents"},
+  ]
+}

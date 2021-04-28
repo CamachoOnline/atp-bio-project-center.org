@@ -1,0 +1,27 @@
+[
+	{
+		"name":"Carnegie Mellon University",
+		"value":"Carnegie Mellon University"
+	},
+	{
+		"name":"Mass General Hospital/Harvard Medical School",
+		"value":"Mass General Hospital/Harvard Medical School"
+	},
+	{
+		"name":"University of California-Berkeley",
+		"value":"University of California-Berkeley"
+	},
+	{
+		"name":"University of California-Riverside",
+		"value":"University of California-Riverside"
+	},
+	{
+		"name":"University of Minnesota",
+		"value":"University of Minnesota"
+	},
+	{
+		"name":"Other",
+		"value":"Other",
+		"data-add":"forms/templates/tmp_institution_add"
+	}
+]

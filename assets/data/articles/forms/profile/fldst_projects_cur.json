@@ -1,0 +1,18 @@
+{
+	"element":"fieldset",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"projects"
+		},
+		{
+			"name":"class",
+			"value":["group"]
+		}
+	],
+	"legend":"Projects",
+	"view":["students"],
+	"content":[
+		{"block":"forms/templates/tmp_project_add"}
+	]
+}

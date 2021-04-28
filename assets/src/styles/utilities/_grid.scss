@@ -1,0 +1,10 @@
+/* Grid */
+.atp--col{
+	display:grid;
+}
+.atp--col-1 > .atp--content{
+	grid-template-columns: 1fr;
+}
+.atp--col-2 > .atp--content{
+	grid-template-columns: 1fr 1fr;
+}

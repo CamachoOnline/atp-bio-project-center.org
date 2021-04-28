@@ -1,0 +1,11 @@
+[
+  {
+    "name": "US Citizen or Permanent Resident",
+    "value": "US Citizen or Permanent Resident"
+  },
+  {
+    "name": "Foreign Citizen",
+    "value": "Foreign Citizen",
+	"data-add":"demographics_citizen_country_add | unhide,hide"
+  }
+]

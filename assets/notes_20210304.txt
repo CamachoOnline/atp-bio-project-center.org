@@ -1,0 +1,14 @@
+REGULAR EXSPRESSIONS - Base 64 Encoder / Decoder
+btoa(value) = encode for json storage
+atob(value) = decode for javascript use
+
+// getUrlVals
+Encoded: L1s/Jl0rKFtePSZdKyk9KFteJl0qKS9naQ==
+Decoded: /[?&]+([^=&]+)=([^&]*)/gi
+
+//Email
+Encoded: L15bYS16QS1aMC05LiEjJCUmJyorLz0/Xl9ge3x9fi1dK0BbYS16QS1aMC05LV0rKD86XC5bYS16QS1aMC05LV0rKSokLw==
+Decoded: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+//Phone
+Encoded: L15cKD8oWzAtOV17M30pXCk/Wy0uIF0/KFswLTldezN9KVstLiBdPyhbMC05XXs0fSkkLw==
+Decoded: /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/

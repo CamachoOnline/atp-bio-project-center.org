@@ -1,0 +1,22 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"project_base"
+		},
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":false,
+	"content":[
+		{"block":"forms/projects/block/blk_project_type"},
+		{"block":"forms/projects/block/blk_project_numbers"},
+		{"block":"forms/projects/block/blk_project_title"},
+		{"block":"forms/projects/block/blk_project_translation"},
+		{"block":"forms/projects/block/blk_project_abstract"}
+	]
+}

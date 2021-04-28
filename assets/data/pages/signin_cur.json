@@ -1,0 +1,56 @@
+{
+	"name":"Sign-in",
+	"type":"page",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"signin"
+		},
+		{
+			"name":"class",
+			"value":["page-signin","col","col-2"]
+		},
+		{
+			"name":"data-layout",
+			"value":"standard"
+		}
+	],
+	"meta":[
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"description"
+				},
+				{
+					"name":"content",
+					"value":"ERC participant sign-in."
+				}
+			]
+		},
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"keywords"
+				},
+				{
+					"name":"content",
+					"value":"sign-in, username, password, legal, privacy, policy"
+				}
+			]
+		}
+	],
+	"styles":false,
+	"scripts":false,
+	"title":[
+		{
+			"element":"h1",
+			"text":"ERC Participant Sign-in"
+		}
+	],
+	"content":[
+		{"component":"cmp_form_signin"}
+	]
+	
+}

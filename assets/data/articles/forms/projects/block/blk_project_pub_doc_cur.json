@@ -1,0 +1,39 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"title":false,
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"file"
+				},
+				{
+					"name":"id",
+					"value":"pub_doc"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pub_doc"
+				},
+				{
+					"name":"required"
+				}
+			],
+			"label":"Upload paper/doc",
+			"example":false,
+			"tooltip":false
+		}
+	]
+}

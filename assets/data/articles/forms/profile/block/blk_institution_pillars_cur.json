@@ -1,0 +1,167 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"institution_primary_pillars"
+		},
+		{
+			"name":"class",
+			"value":["col","col-3"]
+		}
+	],
+	"title":[
+		{
+			"element":"h3",
+			"text":"Primary ATP-Bio Pillar(s)"
+		},
+		{
+			"element":"p",
+			"text":false
+		}
+	],
+	"content":[
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"primary_pillars1"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"primary_pillars"
+				},
+				{
+					"name":"value",
+					"value":"Engineering Research"
+				}
+				
+			],
+			"label":"Engineering Research",
+			"tooltip":false
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"primary_pillars2"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"primary_pillars"
+				},
+				{
+					"name":"value",
+					"value":"Ethics and Public Policy"
+				}
+				
+			],
+			"label":"Ethics and Public Policy",
+			"tooltip":false
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"primary_pillars3"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"primary_pillars"
+				},
+				{
+					"name":"value",
+					"value":"Engineering Workforce Development"
+				}
+				
+			],
+			"label":"Engineering Workforce Development",
+			"tooltip":false
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"primary_pillars4"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"primary_pillars"
+				},
+				{
+					"name":"value",
+					"value":"Diversity and Culture of Inclusion"
+				}
+				
+			],
+			"label":"Diversity and Culture of Inclusion",
+			"tooltip":false
+		},
+		{
+			"element":"input",
+			"attributes":[
+				{
+					"name":"type",
+					"value":"checkbox"
+				},
+				{
+					"name":"id",
+					"value":"primary_pillars5"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"primary_pillars"
+				},
+				{
+					"name":"value",
+					"value":"Innovation Ecosystem"
+				}
+				
+			],
+			"label":"Innovation Ecosystem",
+			"tooltip":false
+		}
+	],
+	"tooltip":false,
+	"message":false
+}

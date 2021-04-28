@@ -1,0 +1,19 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"class",
+			"value":["col","col-1"]
+		}
+	],
+	"view":["faculty","students"],
+	"title":[
+    {
+      "element":"h3",
+      "text":"Licenses"
+    }
+  ],
+	"content":[
+    {"block":"forms/templates/tmp_project_innovation_licenses"}
+  ]
+}

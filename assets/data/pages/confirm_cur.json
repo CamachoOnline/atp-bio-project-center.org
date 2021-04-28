@@ -1,0 +1,57 @@
+{
+	"name":"Confirmation",
+	"type":"page",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"confirmation"
+		},
+		{
+			"name":"class",
+			"value":["page-confirmation","col","col-1"]
+		},
+		{
+			"name":"data-layout",
+			"value":"standard"
+		}
+	],
+	"meta":[
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"description"
+				},
+				{
+					"name":"content",
+					"value":"ATP-Bio ERC participant account confirmation."
+				}
+			]
+		},
+		{
+			"attributes":[
+				{
+					"name":"name",
+					"value":"keywords"
+				},
+				{
+					"name":"content",
+					"value":"confirmation"
+				}
+			]
+		}
+	],
+	"styles":false,
+	"scripts":false,
+	"title":[
+		{
+			"element":"h1",
+			"text":"Your account is now active!"
+		},
+		{
+			"element":"p",
+			"text":"You may now sign-in <a href=\"/index_sign.php\">here</a>."
+		}
+	],
+	"content":false
+}

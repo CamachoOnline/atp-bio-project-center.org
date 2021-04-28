@@ -1,0 +1,21 @@
+{
+	"element":"fieldset",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"personal"
+		},
+		{
+			"name":"class",
+			"value":["group"]
+		}
+	],
+	"legend":"Personal Information",
+	"title":false,
+	"content":[
+		{"block":"forms/profile/block/blk_user_fullname"},
+		{"block":"forms/profile/block/blk_user_email"},
+		{"block":"forms/profile/block/blk_user_phone"},
+		{"block":"forms/profile/block/blk_user_residency"}
+	]
+}

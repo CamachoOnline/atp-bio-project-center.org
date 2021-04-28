@@ -1,0 +1,97 @@
+{
+	"styles":{
+		"h2":["hdg","hdg-2"],
+		"p":["txt","txt-1"]
+	},
+    "form_signin":{
+		"validation":{
+			"usr_usn":{
+				"empty":"--NAME-- can not be empty!",
+				"min":"--NAME-- must contain at least --MIN-- character(s)!",
+				"max":"--NAME-- can not be more than --MAX-- character(s)!"
+			},
+			"usr_psw":{
+				"empty":"--NAME-- can not be empty!",
+				"min":"--NAME-- must contain at least --MIN-- character(s)!",
+				"max":"--NAME-- can not be more than --MAX-- character(s)!"
+			}
+		},
+		"code":{
+			"sgn_nouser":[
+				{"h2":"Error!"},
+				{"p":"No user with the supplied credentials exists, please <a href=\"signin.php\">try again</a>!"},
+				{"p":"If the problem persists and you are sure you registered contact your system administrator."}
+			],
+			"sgn_noactive":[
+				{"h2":"Account not active!"},
+				{"p":"--FNAME-- No user with the supplied credentials exists, please <a href=\"signin.php\">try again</a>!"},
+				{"p":"If the problem persists and sure you registered, contact your system administrator."}
+			],
+			"sgn_password":[
+				{"h2":"Bad Password!"},
+				{"p":"--FNAME--,"},
+				{"p":"The password you supplied was incorrect!"},
+				{"p":"Refer to the verification and confirmation email you recieved for the correct passowrd, please <a href=\"signin.php\">try again</a>!"},
+				{"p":"If the problem persists and you are sure you registered contact your system administrator."}
+			]
+		}
+		
+    },
+	"form_registration":{
+		"validation":{
+			"usr_fnm":{
+				"empty":"--NAME-- can not be empty!",
+				"min":"--NAME-- must contain at least --MIN-- character(s)!",
+				"max":"--NAME-- can not be more than --MAX-- character(s)!"
+			},
+			"usr_lnm":{
+				"empty":"--NAME-- can not be empty!",
+				"min":"--NAME-- must contain at least --MIN-- character(s)!",
+				"max":"--NAME-- can not be more than --MAX-- character(s)!"
+			},
+			"usr_eml":{
+				"empty":"--NAME-- can not be empty!",
+				"min":"--NAME-- must contain at least --MIN-- character(s)!",
+				"max":"--NAME-- can not be more than --MAX-- character(s)!",
+				"format":"--NAME-- is not a valid email address!"
+			},
+			"email_confirm":{
+				"empty":"--NAME-- can not be empty and must match email address!",
+				"nomatch":"Emails do not match!"
+			},
+			"usr_phn":{
+				"empty":"--NAME-- can not be empty!",
+				"min":"--NAME-- must contain at least --MIN-- digit(s) or --MAX-- including (-)!",
+				"max":"--NAME-- can not be more than --MAX-- digit(s) including (-)!",
+				"formatw1":"--NAME-- is not a valid phone number that is between --MIN-- to --MAX-- chaaracters, Can NOT include \"1\", but can include \"-\"! ",
+				"format":"--NAME-- is not a valid phone number that is between --MIN-- to --MAX-- chaaracters!"
+			},
+			"usr_typ":{
+				"empty":"Please make a selection!"
+			}
+			
+		},
+		"code":{
+			"reg_server":[
+				{"h2":"Server Error!"},
+				{"p":"There was an unknown server error, please contact your administrator."}
+			],
+			"reg_exists":[
+				{"h2":"User already exists!"},
+				{"p":"A user with the same email exists"}
+			],
+			"reg_failure":[
+				{"h2":"Registration Failed!"},
+				{"p":"Please try again! If the problem persists please contact your system administrator."}
+			],
+			"reg_success":[
+				{"h2":"Congradulations... you are now registered!"},
+				{"p":"--FNAME--,"},
+				{"p":"Besure to check your email at <i>--EMAIL--</i> for a verification and confirmation of your registration. You will need to confirm in order to activate your account."},
+				{"p":"Please check your spam folder if you do not see the email in your inbox."},
+				{"p":"If you experience any issues contact your system administrator at <i>--ADEMAIL--</i>."}
+			]
+		}
+		
+    }
+}

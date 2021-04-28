@@ -1,0 +1,22 @@
+{
+	"element":"fieldset",
+	"attributes":[
+		{
+			"name":"id",
+			"value":"institution"
+		},
+		{
+			"name":"class",
+			"value":["group"]
+		}
+	],
+	"legend":"Institution",
+	"content":[
+		{"block":"forms/profile/block/blk_institution_name"},
+		{"block":"forms/profile/block/blk_institution_pillars"},
+		{"block":"forms/profile/block/blk_demographics_roleclassification"},
+		{"block":"forms/profile/block/blk_demographics_department"},
+		{"block":"forms/profile/block/blk_demographics_titlewithin"},
+		{"block":"forms/profile/block/blk_user_discipline"}
+	]
+}

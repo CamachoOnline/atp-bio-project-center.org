@@ -1,0 +1,27 @@
+{
+	"element":"main",
+	"attributes":[
+		{
+			"name":"class",
+			"value":["page"]
+		}
+	],
+	"title":{
+		"element":"div",
+		"attributes":[
+			{
+				"name":"class",
+				"value":["title"]
+			}
+		]
+	},
+	"content":{
+		"element":"div",
+		"attributes":[
+			{
+				"name":"class",
+				"value":["content"]
+			}
+		]
+	}
+}

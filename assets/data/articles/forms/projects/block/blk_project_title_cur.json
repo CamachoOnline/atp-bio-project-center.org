@@ -1,0 +1,41 @@
+{
+	"element":"div",
+	"attributes":[
+		{
+			"name":"class",
+			"value":["col","col-4"]
+		},
+		{
+			"name":"required"
+		}
+	],
+	"title":false,
+	"content":[
+		{
+			"element":"select",
+			"attributes":[
+				{
+					"name":"id",
+					"value":"project_title"
+				},
+				{
+					"name":"class",
+					"value":[]
+				},
+				{
+					"name":"name",
+					"value":"pro_prn"
+				},
+				{
+					"name":"required"
+				}
+			],
+			"label":"Project Title",
+			"options":["forms/options/optns_projecttitles"],
+			"example":false,
+			"tooltip":"The smallest unit of work, supporting one or two faculty and one or two students on a focused piece of work. Every project must be assigned to at least one thrust so that the Estimated Budgets Table does not convey the impression that the Center is a collection of single investigator efforts but rather shows how the Center is an integrated body of work that will ultimately support the systems level goals."
+		}
+	],
+	"example":false,
+	"tooltip":false
+}
